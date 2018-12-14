@@ -1,0 +1,92 @@
+.contentAll {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contentAll .contentForm {
+  height: 80%;
+  border: 2px solid #9bcfcf;
+  border-radius: 20px;
+  background: #e9f5f5;
+  padding: 20px 20px;
+}
+
+.contentAll .contentForm .addTache {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contentAll .contentForm .addTache h4 {
+  text-align: left;
+}
+
+.contentAll .contentForm .addTache form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.contentAll .contentForm .submit {
+  padding: 5px 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+
+.contentAll .contentForm .toDoList {
+  height: auto;
+  background: lightcyan;
+  padding-bottom: 20px;
+}
+
+.contentAll .contentForm .toDoList .contentNewTache {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contentAll .contentForm .toDoList .contentNewTache p {
+  margin: 0;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.contentAll .archive {
+  height: auto;
+  background: #9bcfcf;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.contentAll .archive p {
+  text-decoration: line-through;
+  text-transform: uppercase;
+  color: grey;
+}
+/*# sourceMappingURL=style.css.map */

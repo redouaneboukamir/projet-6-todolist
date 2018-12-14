@@ -1,0 +1,62 @@
+.contentAll{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .contentForm{
+        height: 80%;
+        border: 2px solid rgb(155, 207, 207);;
+            border-radius: 20px;
+            background: rgb(233, 245, 245);
+            padding: 20px 20px;
+        .addTache{
+            height: 20%;
+            display: flex;
+            flex-direction: column;
+            h4{
+                text-align: left;
+            }
+            form{
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                margin: 0;
+                input{
+
+                }
+            }
+        }
+ .submit{
+    padding: 5px 20px;
+    border-radius: 10px;
+    text-transform: uppercase;
+ }
+        .toDoList{
+            height: auto;
+            background: rgb(224, 255, 255);
+            
+            padding-bottom: 20px;
+            .contentNewTache{
+                display: flex;
+                align-items: center;
+                p{
+                    margin: 0;
+                    padding-left: 10px;
+                    text-transform: uppercase;
+                    
+                }
+            }
+        }
+    }
+            .archive{
+                height: auto;
+                background: rgb(155, 207, 207);
+                display: flex;
+                flex-direction: column;
+                p{
+                    text-decoration: line-through;
+                    text-transform: uppercase;
+                    color: grey;
+                }
+            }
+}
